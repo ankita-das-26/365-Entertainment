@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sci-fi</title>
+        <link rel="stylesheet" href="movie.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".default_option").click(function(){
+                    $(".dropdown ul").toggleClass("active");
+                });
+                $(".dropdown ul li").click(function(){
+                    var text= $(this).text();
+                    $(".default_option").text(text);
+                });
+            });
+        </script>
+    </head>
+    <body>
+            <nav id="navbar">
+                <a href="index.html" id="but">365</a>
+                <a href="movie.html" class="nav">Movies</a>
+                <a href="Tv series.html" class="nav"> TV series</a>
+                <a href="#" class="nav"> Audio</a>
+            </nav>
+            <header id="Tv series">    
+            </header>
+            <section >
+              <div class="wrapper">
+                <div class="search_box">
+                  <div class="dropdown">  
+                      <div class="default_option">Genre</div>
+                      <ul>
+                        <li><a href="All.html">ALL</a></li>
+                        <li><a href="ACTIONN.html">Drama</a></li>
+                        <li><a href="DRAMAA.html">Action</a></li>
+                        <li><a href="sci.html">Sci-Fi</a></li>
+                      </ul>
+                  </div>
+                  <div class="search_field">
+                      <input type="text" class="input" placeholder="Search your favorite movie title">
+                      <i class="fas fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </section>
+           <div id="container">
+            <div class="pamp">
+                <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNXZrFUH_Q6Ub27PQANr2O1MO9ODuos7WXg88Dr1etJUMZimWJ" alt="">
+                </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGX9ct7yVAMd4PZlQTvzW2qM4MOXWFzwAgnJDeIgKbDb9qC3pS" alt="">
+                </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdHqHCYYZR1l_y9hG8GsxBNGCaw1_pP7_F77loZkVBAsdgwh2O" alt="">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsoDsHSiVJQviAt8ODDOCO8BL-ptccayn7HC-rKpobO03g08Vx" alt="">
+                </div> 
+                <div class="pamp">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbX801dFpaPVLOey5hZI2AdALnq31NVnK00S3mLTC-pWrCaI0t" alt="">
+                </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRMHaTpO2a92ZFmc9IYcG1rpqCv-O_Z1eMsF97FoaFfXOIcm-P" alt= "">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOwXPjduweVo1J19sAxhP_lt1cFF1INaVhSl0t5UrwdyCuco8d" alt="">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkbs0lLV0DSopIrxqVT_LLHbotwkiV1Y2rZLrOMmggjc7FVUk2" alt="">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJkcpzm8jYfmB7n5sb1T3BMeXK3OKsQ87xC1sTsGKf0Zoo8nB" alt="">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzWpSOpNBPnDjZkb2C1ZfWyQa1NSKZKJJCDPk4gViLMrEN_h_0" alt="">
+               </div>
+                <div class="pamp">  
+                <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_l6EDVenGblTf0r85pCUlDpvvIAi9YIYfGnjJaOc8704yn5_" alt="">
+               </div>
+                <div class="pamp">
+                <img  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkCxaACnh1oGy8equ_TVV8ODqu0ffiPeOX9x8EAYymS86DNx6O" alt="">
+                </div>
+                
+            </div>
+            <footer>Powered by 365 Entertainment.All rights preserved</footer>
+    </body>
+    </html>      

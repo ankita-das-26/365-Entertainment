@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Action</title>
+        <link rel="stylesheet" href="movie.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".default_option").click(function(){
+                    $(".dropdown ul").toggleClass("active");
+                });
+                $(".dropdown ul li").click(function(){
+                    var text= $(this).text();
+                    $(".default_option").text(text);
+                });
+            });
+        </script>
+    </head>
+    <body>
+            <nav id="navbar">
+                <a href="index.html" id="but">365</a>
+                <a href="movie.html" class="nav">Movies</a>
+                <a href="#" class="nav"> TV series</a>
+                <a href="#" class="nav"> Audio</a>
+            </nav>
+            <header id="movie">    
+            </header>
+            <section >
+              <div class="wrapper">
+                <div class="search_box">
+                  <div class="dropdown">
+                      <div class="default_option">Action</div>
+                      <ul>
+                          <li><a href="All.html">ALL</a></li>
+                          <li><a href="action.html">Action</a></li>
+                          <li><a href="Drama.html">Drama</a></li>
+                          <li><a href="Sci-Fi.html">Sci-Fi</a></li>
+                      </ul>
+                  </div>
+                  <div class="search_field">
+                      <input type="text" class="input" placeholder="Search your favorite movie title">
+                      <i class="fas fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </section>
+       <div id="container">
+                <div class="pamp">
+                <img  src="https://upload.wikimedia.org/wikipedia/en/9/90/Bang_Bang_%282014_Film%29.jpg" alt="Bang Bang">
+                </div>
+                <div class="pamp">
+                <img  src="https://upload.wikimedia.org/wikipedia/en/0/02/Official_Poster_of_Mardaani.jpg" alt="Mardaani">
+                </div>
+                <div class="pamp">
+                <img  src="https://i.pinimg.com/originals/bd/f8/99/bdf8996cede763cd3d3cf8f81ea86411.jpg" alt="War">
+               </div>
+               <div class="pamp">
+                <img  src="https://marruda3.files.wordpress.com/2020/05/extraction.jpg" alt="Extraction">
+                </div>
+                <div class="pamp">
+                <img  src="https://i.pinimg.com/236x/ed/11/a7/ed11a7a8da97885d6ab1e91f8b618e6c.jpg" alt="Tanhaji">
+                </div> 
+                
+                <div class="pamp">
+                <img   src="https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg" alt="Avengers: End Game">
+               </div>
+               <div class="pamp">
+               <img   src=" https://upload.wikimedia.org/wikipedia/en/2/2d/Ek_Tha_Tiger_theatrical_poster.jpg" alt="Ek Tha Tiger">
+            </div>
+            <div class="pamp">
+                <img   src=" https://www.coffeeandcigarettes.co.uk/wp-content/uploads/2016/02/Pandemic-630-thumb-630xauto-59566.jpg" alt="Ek Tha Tiger">
+             </div> 
+            <div class="pamp">
+                <img   src=" https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Fscottmendelson%2Ffiles%2F2018%2F02%2Fau_rich_hero_blackpanther_1_3c317c85-1200x526.jpeg" alt="Black Panther">
+             </div> 
+            </div> 
+            
+            </div>
+         </div>
+            <footer>Powered by 365 Entertainment. All rights preserved</footer>
+    </body>
+    </html>
